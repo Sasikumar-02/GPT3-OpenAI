@@ -44,7 +44,10 @@ const Navbar = () => {
             </div>
             <div className="gpt3__navbar-sign">
                 <Button/>
-            </div>                
+            </div>        
+
+            {/* the below mentioned lines of code is for mobile and tablet view          */}
+
             <div className="gpt3__navbar-menu">
                 { toggleMenu
                     ? <RiCloseLine color="#fff" size={27} onClick={ ()=> setToggleMenu(false)}/> //if it is not currently open then go to the below line -> "it is as like if-else statement"

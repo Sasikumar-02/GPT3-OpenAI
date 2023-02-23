@@ -1,6 +1,6 @@
 .gpt3__navbar {
     display: flex;
-    justify-content: space-between; /*flex css*/
+    justify-content: space-between; /* flex css */
     align-items: center;
     padding: 2rem 6rem;
 }
@@ -13,7 +13,7 @@
 }
 
 .gpt3__navbar-links_logo {
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 
 .gpt3__navbar-links_logo img {
@@ -130,10 +130,16 @@
     }
 
     .gpt3__navbar-menu_container {
-        tip: 20px;
+        top: 20px;
     }
 
     .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
 }
+
+
+
+
+
+/* 'webkit' is used in the CSS syntax for rendering content in Safari and Chrome browsers. Webkit code may need to be added in CSS to ensure it renders correctly on Chrome and Safari due to the lack of cross-compatibility. */
