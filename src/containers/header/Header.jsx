@@ -8,7 +8,7 @@ const Header = () => {
         <div className="gpt3__header section__padding" id="home">
             <div className="gpt3__header-content">
                 <h1 className="gradient__text">Let's Build Something amazing with GPT-3 OpenAI</h1> {/* --gradient__text style is presented in index.css */}
-                <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                <p>We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.</p>
                 <div className="gpt3__header-content__input">
                     <input type="email" placeholder="your email address" />
                     <button type="button">Get Started</button>
