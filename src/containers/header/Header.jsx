@@ -1,7 +1,6 @@
 import React from "react";
 import './header.css';
-import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+import ai from '../../assets/ai.gif';
 
 const Header = () => {
     return (
@@ -12,10 +11,6 @@ const Header = () => {
                 <div className="gpt3__header-content__input">
                     <input type="email" placeholder="your email address" />
                     <button type="button">Get Started</button>
-                </div>
-                <div className="gpt3__header-content__people">
-                    <img src={people} alt="people"/> {/*imported a people image named people.png*/}
-                    <p>1,600 people requested access a visit in last 24 hours</p>
                 </div>    
             </div>
             <div className="gpt3__header-image">
