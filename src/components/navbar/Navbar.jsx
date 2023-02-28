@@ -2,11 +2,14 @@ import React, {useState} from "react";
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'; // importing a few icons (RiMenu3Line, RiCloseLine) from a react-icons/ri
 import './navbar.css'
 import logo from '../../assets/logo.svg'
+import { Register } from "../../containers/register-login/Frontend/Register";
+import { Login } from "../../containers/register-login/Frontend/Login";
+import axios from "axios";
 //BEM - a specific CSS naming convention called BEM (Black Element Modifier) eg: gpt3__navbar
 const Button = () => (
     <>
-    <p>Sign in</p>
-    <button type="button">Sign up</button>
+    <a href="Login.jsx"><p>Sign in</p></a>
+    <a href="Register.jsx"><button type="button" >Sign up</button></a>
     </>
 )
 const Menu = () => (
